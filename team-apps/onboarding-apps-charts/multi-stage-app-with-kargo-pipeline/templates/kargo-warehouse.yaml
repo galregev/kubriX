@@ -5,5 +5,5 @@ metadata:
   namespace: {{ tpl .Values.kargoProject . }}
 spec:
   subscriptions:
-  - git:
+  - image:
       repoURL: {{ .Values.repoUrl }}
